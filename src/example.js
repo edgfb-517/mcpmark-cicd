@@ -1,8 +1,6 @@
-// This file has intentional linting errors
-const unusedVariable = "I'm not used";
-
-console.log("Hello world");
-
+// This file has been fixed to pass linting
 function myFunction() {
-  return "double quotes"
+  return 'single quotes';
 }
+
+myFunction();
